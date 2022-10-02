@@ -1,0 +1,119 @@
+
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    background-color: #052D37;
+    max-width: 75%;
+}
+
+#home-image {
+    max-width: 500px;
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar {
+    width: 100%;
+    text-align: left;
+    overflow: hidden;
+    position: sticky;
+}
+
+.navbar ul {
+    list-style-type: none;
+    background-color: #052D37;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+.navbar li{
+    display: inline-block;
+    background-color: #C8A2C8;
+    border-radius: 5px;
+    border: 1px solid #E55C3E;
+    margin: 1px;
+    padding: 5px;
+}
+
+.navbar a{
+    color: #E55C3E;
+    font-family: Helvetica, sans-serif;
+    font-weight: 550;
+}
+
+.navbar a:hover {
+    color: #052D37;
+}
+
+h1,
+h3 {
+    text-align: center;
+    color: #E55C3E;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h5 {
+    text-align: center;
+    color: #E55C3E;
+    font-family: garamond;
+    font-style: italic;
+}
+
+.homebox {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.results {
+    margin: 0;
+    float: right;
+    font-family: 'Courier New', Courier, monospace;
+    width: 49%;
+}
+
+.standings {
+    float: left;
+    font-family: 'Courier New', Courier, monospace;
+    width: 49%;
+}
+
+table {
+    border: 1px dotted #E55C3E;
+    color: #C8A2C8;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    display: inline-block;
+}
+
+th {
+    text-decoration: underline;
+    text-align: center;
+}
+
+td {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.standingname {
+    text-align: left;
+}
+
+table .winner {
+    font-weight: bolder;
+}
+
+.score {
+    text-align: right;
+}
+
+#tableteam {
+    text-align: left;
+}
